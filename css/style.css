@@ -105,6 +105,16 @@ li{
   z-index: 2;
 }
 
+.green{
+  background-color: green;
+  left: 53px;
+  z-index: 2;
+}
+
+.alt{
+  left:10px;
+}
+
 /* description prodotto */
 .brand, .item-name, .red{
   margin: 0 10px;
