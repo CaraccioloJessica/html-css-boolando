@@ -23,7 +23,7 @@ body{
 
 /* gender element style */
 #gender{
-  width: 25%;
+  width: 20%;
   height: 55px;
   color: #fff;
   display: flex;
@@ -45,7 +45,7 @@ li{
 
 /* logo boolando */
 #logo{
-  width: 50%;
+  width: 60%;
   height: 55px;
   display: flex;
   align-items: center;
@@ -54,4 +54,20 @@ li{
 
 #logo img{
   width: 100px;
+  cursor: pointer;
+}
+
+/* menù nav azioni */
+#nav-action{
+  width: 20%;
+  height: 55px;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#nav-action i {
+  padding-right: 10px;
+  cursor: pointer;
 }
