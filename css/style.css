@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar style */
 #nav-bar{
   width: 100%;
   height: 55px;
@@ -13,5 +18,26 @@
   top: 0;
   left: 0;
   z-index: 10;
+}
 
+/* gender element style */
+#gender{
+  width: 25%;
+  height: 55px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul{
+  font-size: 12px;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+li{
+  padding-left: 10px;
 }
