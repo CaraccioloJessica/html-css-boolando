@@ -84,9 +84,37 @@ li{
 /* img prodotto */
 .product img{
   width: 330px;
-  margin: 20px 10px;
+  margin: 20px 10px 0px;
   position: relative;
 }
+
+.brand, .item-name, .red{
+  margin: 0 10px;
+}
+
+.brand{
+  font-size: 11px;
+}
+
+.item-name{
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.price{
+  font-size: 11px;
+  text-decoration: line-through;
+  color: black;
+  font-weight: normal;
+}
+
+.red{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 
 
 
